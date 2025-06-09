@@ -1,0 +1,172 @@
+{
+  "movies": [
+    {
+      "id": "1",
+      "posterUrl": "https://files.betacorp.vn/media%2fimages%2f2025%2f05%2f18%2fbeta%2D400x633%2D192849%2D180525%2D39.png",
+      "title": "Phim Giả Lập 1",
+      "genres": [
+        "Hành động",
+        "Khoa học viễn tưởng"
+      ],
+      "duration": "90 phút",
+      "isHot": true,
+      "ageBadgeUrl": "/src/assets/p.png"
+    },
+    {
+      "id": "2",
+      "posterUrl": "https://files.betacorp.vn/media%2fimages%2f2025%2f05%2f18%2fbeta%2D400x633%2D192849%2D180525%2D39.png",
+      "title": "Phim Giả Lập 2",
+      "genres": [
+        "Tình cảm",
+        "Hài hước"
+      ],
+      "duration": "100 phút",
+      "isHot": false,
+      "ageBadgeUrl": "/src/assets/p.png"
+    },
+    {
+      "id": "3",
+      "posterUrl": "https://files.betacorp.vn/media%2fimages%2f2025%2f05%2f18%2fbeta%2D400x633%2D192849%2D180525%2D39.png",
+      "title": "Phim Giả Lập 3",
+      "genres": [
+        "Hành động",
+        "Khoa học viễn tưởng"
+      ],
+      "duration": "110 phút",
+      "isHot": false,
+      "ageBadgeUrl": "/src/assets/p.png"
+    },
+    {
+      "id": "4",
+      "posterUrl": "https://files.betacorp.vn/media%2fimages%2f2025%2f05%2f18%2fbeta%2D400x633%2D192849%2D180525%2D39.png",
+      "title": "Phim Giả Lập 4",
+      "genres": [
+        "Tình cảm",
+        "Hài hước"
+      ],
+      "duration": "120 phút",
+      "isHot": false,
+      "ageBadgeUrl": "/src/assets/p.png"
+    },
+    {
+      "id": "5",
+      "posterUrl": "https://files.betacorp.vn/media%2fimages%2f2025%2f05%2f18%2fbeta%2D400x633%2D192849%2D180525%2D39.png",
+      "title": "Phim Giả Lập 5",
+      "genres": [
+        "Hành động",
+        "Khoa học viễn tưởng"
+      ],
+      "duration": "90 phút",
+      "isHot": false,
+      "ageBadgeUrl": "/src/assets/p.png"
+    },
+    {
+      "id": "6",
+      "posterUrl": "https://files.betacorp.vn/media%2fimages%2f2025%2f05%2f18%2fbeta%2D400x633%2D192849%2D180525%2D39.png",
+      "title": "Phim Giả Lập 6",
+      "genres": [
+        "Tình cảm",
+        "Hài hước"
+      ],
+      "duration": "100 phút",
+      "isHot": true,
+      "ageBadgeUrl": "/src/assets/p.png"
+    },
+    {
+      "id": "7",
+      "posterUrl": "https://files.betacorp.vn/media%2fimages%2f2025%2f05%2f18%2fbeta%2D400x633%2D192849%2D180525%2D39.png",
+      "title": "Phim Giả Lập 7",
+      "genres": [
+        "Hành động",
+        "Khoa học viễn tưởng"
+      ],
+      "duration": "110 phút",
+      "isHot": false,
+      "ageBadgeUrl": "/src/assets/p.png"
+    },
+    {
+      "id": "8",
+      "posterUrl": "https://files.betacorp.vn/media%2fimages%2f2025%2f05%2f18%2fbeta%2D400x633%2D192849%2D180525%2D39.png",
+      "title": "Phim Giả Lập 8",
+      "genres": [
+        "Tình cảm",
+        "Hài hước"
+      ],
+      "duration": "120 phút",
+      "isHot": false,
+      "ageBadgeUrl": "/src/assets/p.png"
+    },
+    {
+      "id": "9",
+      "posterUrl": "https://files.betacorp.vn/media%2fimages%2f2025%2f05%2f18%2fbeta%2D400x633%2D192849%2D180525%2D39.png",
+      "title": "Phim Giả Lập 9",
+      "genres": [
+        "Hành động",
+        "Khoa học viễn tưởng"
+      ],
+      "duration": "90 phút",
+      "isHot": false,
+      "ageBadgeUrl": "/src/assets/p.png"
+    },
+    {
+      "id": "10",
+      "posterUrl": "https://files.betacorp.vn/media%2fimages%2f2025%2f05%2f18%2fbeta%2D400x633%2D192849%2D180525%2D39.png",
+      "title": "Phim Giả Lập 10",
+      "genres": [
+        "Tình cảm",
+        "Hài hước"
+      ],
+      "duration": "100 phút",
+      "isHot": false,
+      "ageBadgeUrl": "/src/assets/p.png"
+    },
+    {
+      "id": "11",
+      "posterUrl": "https://files.betacorp.vn/media%2fimages%2f2025%2f05%2f18%2fbeta%2D400x633%2D192849%2D180525%2D39.png",
+      "title": "Phim Giả Lập 11",
+      "genres": [
+        "Hành động",
+        "Khoa học viễn tưởng"
+      ],
+      "duration": "110 phút",
+      "isHot": true,
+      "ageBadgeUrl": "/src/assets/p.png"
+    },
+    {
+      "id": "12",
+      "posterUrl": "https://files.betacorp.vn/media%2fimages%2f2025%2f05%2f18%2fbeta%2D400x633%2D192849%2D180525%2D39.png",
+      "title": "Phim Giả Lập 12",
+      "genres": [
+        "Tình cảm",
+        "Hài hước"
+      ],
+      "duration": "120 phút",
+      "isHot": false,
+      "ageBadgeUrl": "/src/assets/p.png"
+    },
+    {
+      "id": "13",
+      "posterUrl": "https://files.betacorp.vn/media%2fimages%2f2025%2f05%2f18%2fbeta%2D400x633%2D192849%2D180525%2D39.png",
+      "title": "Phim Giả Lập 13",
+      "genres": [
+        "Hành động",
+        "Khoa học viễn tưởng"
+      ],
+      "duration": "90 phút",
+      "isHot": false,
+      "ageBadgeUrl": "/src/assets/p.png"
+    },
+    {
+      "id": "14",
+      "posterUrl": "https://files.betacorp.vn/media%2fimages%2f2025%2f05%2f18%2fbeta%2D400x633%2D192849%2D180525%2D39.png",
+      "title": "Phim Giả Lập 14",
+      "genres": [
+        "Tình cảm",
+        "Hài hước"
+      ],
+      "duration": "100 phút",
+      "isHot": false,
+      "ageBadgeUrl": "/src/assets/p.png"
+    }
+  ]
+}
