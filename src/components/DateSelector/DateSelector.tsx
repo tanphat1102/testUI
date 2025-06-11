@@ -1,5 +1,3 @@
-// File: src/components/dateSelector/DateSelector.tsx
-
 import React from "react";
 
 export interface DateSelectorProps {
@@ -15,6 +13,7 @@ const formatDate = (
   const date = new Date(dateString);
   const day = String(date.getDate()).padStart(2, "0");
   const month = String(date.getMonth() + 1).padStart(2, "0");
+  // CẬP NHẬT: Đổi tên ngày trong tuần để khớp với ảnh (T2, T3, T4, T5)
   const dayOfWeekNames = ["CN", "T2", "T3", "T4", "T5", "T6", "T7"];
   const dayOfWeek = dayOfWeekNames[date.getDay()];
   return { day, month, dayOfWeek };
@@ -27,10 +26,8 @@ const DateSelector: React.FC<DateSelectorProps> = ({
 }) => {
   return (
     // CẬP NHẬT: Style lại container
-    <div className="flex justify-center border-b border-gray-200 mb-6">
-      {" "}
+    <div className="flex justify-start border-b border-gray-200 mb-6">
       <div className="flex items-center space-x-4 overflow-x-auto pb-px">
-        {" "}
         {dates.map((dateStr) => {
           const { day, month, dayOfWeek } = formatDate(dateStr);
           const isActive = selectedDate === dateStr;
@@ -38,26 +35,35 @@ const DateSelector: React.FC<DateSelectorProps> = ({
             <button
               key={dateStr}
               onClick={() => onSelectDate(dateStr)}
-              // CẬP NHẬT: Toàn bộ style của button
+              // CẬP NHẬT: Toàn bộ style của button để khớp với thiết kế
               className={`text-center py-3 px-4 cursor-pointer transition-colors flex-shrink-0 border-b-2
             ${
-            isActive
-                ? "border-red-500 text-red-500"
-                : "border-transparent text-gray-600 hover:text-red-500"
+              isActive
+                ? "border-red-600 text-red-600" // Màu xanh đậm cho border và text khi active
+                : "border-transparent text-gray-900 hover:text-gray-900" // Màu xám nhẹ cho inactive, hover
             }`}
             >
-              {/* CẬP NHẬT: Cấu trúc HTML bên trong để khớp với thiết kế */}{" "}
-              <p
-                className={`text-lg ${
-                  isActive ? "font-bold" : "font-semibold"
-                }`}
-              >
-                {day}/{month} - {dayOfWeek}{" "}
-              </p>{" "}
+              {/* CẬP NHẬT: Cấu trúc HTML bên trong để khớp với thiết kế */}
+              <div className=" items-center">
+                <a
+                  className={`text-4xl leading-none ${
+                    isActive ? "font-semibold" : "font-semibold"
+                  }`}
+                >
+                  {day}
+                </a>
+                <a
+                  className={`text-lg leading-none mt-1 ${
+                    isActive ? "font-bold" : "font-bold"
+                  }`}
+                >
+                  /{month} - {dayOfWeek}
+                </a>
+              </div>
             </button>
           );
-        })}{" "}
-      </div>{" "}
+        })}
+      </div>
     </div>
   );
 };
