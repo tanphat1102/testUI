@@ -31,9 +31,8 @@ const MovieCard: React.FC<MovieCardProps> = ({
     // THAY ĐỔI: Bỏ min/max width, dùng w-full để card linh hoạt theo grid cha.
     // h-full và flex-col vẫn rất quan trọng.
     <div className="flex flex-col h-full w-full bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-shadow duration-300">
-      
       {/* --- Phần Poster --- */}
-      <div className="relative group" onClick={onPosterClick}>
+      <div className="relative group " onClick={onPosterClick}>
         <img
           src={posterUrl}
           alt={`Poster phim ${title}`}
@@ -47,7 +46,11 @@ const MovieCard: React.FC<MovieCardProps> = ({
         </div>
         {ageBadgeUrl && (
           <div className="absolute top-3 left-3 z-10">
-            <img src={ageBadgeUrl} alt="Phân loại phim" className="h-9 w-auto" />
+            <img
+              src={ageBadgeUrl}
+              alt="Phân loại phim"
+              className="h-9 w-auto"
+            />
           </div>
         )}
         {isHot && (
@@ -58,18 +61,25 @@ const MovieCard: React.FC<MovieCardProps> = ({
       </div>
 
       {/* --- Phần Nội dung --- */}
-      <div className="flex flex-col flex-1 p-4">
+      <div className="flex flex-col flex-1 pe-4 px-4 pb-4 min-w-3xs max-w-3xs">
         {/* div flex-grow này sẽ đẩy nút Mua Vé xuống dưới */}
         <div className="flex-grow">
           <h3
             title={title}
-            onClick={(e) => { e.stopPropagation(); onTitleClick?.(); }}
-            className="text-lg sm:text-xl font-bold text-red-600 mb-2 h-14 overflow-hidden hover:text-red-700 hover:underline"
-            style={{ display: '-webkit-box', WebkitLineClamp: 2, WebkitBoxOrient: 'vertical' }}
+            onClick={(e) => {
+              e.stopPropagation();
+              onTitleClick?.();
+            }}
+            className="text-lg sm:text-xl font-bold text-red-600 overflow-hidden hover:text-red-700 hover:underline"
+            style={{
+              display: "-webkit-box",
+              WebkitLineClamp: 1,
+              WebkitBoxOrient: "vertical",
+            }}
           >
             {title}
           </h3>
-          <p className="text-sm text-gray-600 mb-1 truncate">
+          <p className="text-sm text-gray-600 truncate">
             <span className="font-bold">Thể loại:</span> {genres.join(", ")}
           </p>
           <p className="text-sm text-gray-600">
