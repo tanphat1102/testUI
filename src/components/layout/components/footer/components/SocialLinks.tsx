@@ -1,6 +1,6 @@
 // src/components/Footer/SocialLinks.tsx
-import React from 'react';
-import type { SocialLink } from './FooterColumns';
+import React from "react";
+import type { SocialLink } from "./FooterColumns";
 
 interface SocialLinksProps {
   links: SocialLink[];
